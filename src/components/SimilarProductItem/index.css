@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.similar-product-list {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 20px;
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  .similar-product-list {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+    margin-bottom: 20px;
+  }
+}
+.similar-img {
+  width: 100%;
+  box-sizing: 10px;
+}
+.similar-head {
+  font-size: 14px;
+  color: #1e293b;
+}
+.similar-brand {
+  color: #475569;
+}
+.price-rating-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
